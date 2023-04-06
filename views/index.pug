@@ -10,6 +10,6 @@ block content
     var change = -1
     function doReduce() {
       count = count + change 
-      change = change - 1
+      change--;
       document.getElementById("reduce").innerHTML = "Count "+ count +" with change "+change;
     }
